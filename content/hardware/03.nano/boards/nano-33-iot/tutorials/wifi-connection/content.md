@@ -221,6 +221,7 @@ If you choose to skip the code building section, the complete code can be found 
 
 ```arduino
 #include <WiFiNINA.h>
+#include "arduino_secrets.h"
 
 //please enter your sensitive data in the Secret tab
 char ssid[] = SECRET_SSID;                // your network SSID (name)
